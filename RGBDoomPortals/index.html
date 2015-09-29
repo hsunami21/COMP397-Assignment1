@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>RGB Doom Portals</title>
+    <link href="Content/reset.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <p>You wake up in a dimly lit room. There are three portals - a</p>
+                <p>red one on the left wall, a green one on the middle wall,</p>
+                <p>and a blue one on the right wall. You see a table with a</p>
+                <p>note on it. On it is a message: "Welcome, Mr. White, to your</p>
+                <p>worst nightmare! Before you are three portals, each of </p>
+                <p>which will take you somewhere different. But beware, there</p>
+                <p>is only one portal that will lead you to safety! Now, which</p>
+                <p>colour is your favourite?"</p>
+                <br />
+                <p>Which portal do you go through?</p>
+                <br />
+                <table>
+                    <tr>
+                        <td><a href="#rp1" style="margin-right:150px; padding-left:15px; padding-right:15px; font-weight:bold; color:red">PORTAL</a></td>
+                        <td><a href="#gp1" style="margin-right:150px; padding-left:15px; padding-right:15px; font-weight:bold; color:green">PORTAL</a></td>
+                        <td><a href="#bp1" style="padding-left:15px; padding-right:15px; font-weight:bold; color:blue">PORTAL</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="rp1" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You step through the red portal and end up in another</p>
+                <p>room. The portal you entered closes behind you. This</p>
+                <p>room also has red, green, and blue portals. You see</p>
+                <p>another note on a table and it reads: "Are you sure this</p>
+                <p>is your favourite colour? Maybe you should try again..."</p>
+                <br />
+                <p>Which portal do you go through?</p>
+                <br />
+                <table>
+                    <tr>
+                        <td><a href="#rp11" style="margin-right:150px; padding-left:15px; padding-right:15px; font-weight:bold; color:red">PORTAL</a></td>
+                        <td><a href="#rp12" style="margin-right:150px; padding-left:15px; padding-right:15px; font-weight:bold; color:green">PORTAL</a></td>
+                        <td><a href="#rp13" style="padding-left:15px; padding-right:15px; font-weight:bold; color:blue">PORTAL</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div id="rp11" class="step slide" data-x="-3000">
+            <div class="slide-text">
+                <p>You find yourself in the middle of a horde of zombies.</p>
+                <p>A voice speaks out and says: "Unfortunate... Very</p>
+                <p>unfortunate..." As the zombies swarm at you, you realize</p>
+                <p>that this is the end.</p>
+            </div>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript Section -->
+    <script src="Scripts/impress.js"></script>
+    <script>impress().init();</script>
+
+</body>
+</html>
