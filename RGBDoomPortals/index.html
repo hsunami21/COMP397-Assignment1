@@ -2,7 +2,7 @@
     Source name: RGB Doom Portals
     Author: Wendall Hsu 300739743
     Last Modified By: Wendall Hsu
-    Date Last Modified: October 1, 2015
+    Date Last Modified: October 2, 2015
     Program Description: You play as Mr. White, an experimental test subject who has been drugged and put into a deep sleep. In your sleep, you dream about waking up in a room that contains
                          three coloured portals - a red one, a green one, and a blue one. You must choose the portal that will lead to your safety, but be wary, for if you choose the wrong
                          one, you will suffer a terrible death and will never wake from your sleep. Now...which colour is your favourite?
@@ -12,6 +12,7 @@
         Commit #2: Completed full path for initial red portal and some death scenarios for first green and blue portals
         Commit #3: Completed all death scenarios except for main path
         Commit #4: Completed full game
+        Commit #5: Tested and debugged code
 -->
 
 <!DOCTYPE html>
@@ -235,7 +236,7 @@
         <!-- GREEN PORTAL / GREEN PORTAL / CYAN PORTAL -->
         <div id="ggc" class="step slide" data-y="-6000">
             <div class="slide-text">
-                <p>You step through the purple portal and find yourself</p>
+                <p>You step through the cyan portal and find yourself</p>
                 <p>staring at yourself in a mirror. A voice speaks out</p>
                 <p>and says, "It seems you don't want to get out alive. Oh</p>
                 <p>well..." You see yourself grip your chest and the next </p>
@@ -267,8 +268,8 @@
             </div>
         </div>
 
-        <!-- GREEN PORTAL / GREEN PORTAL / ORANGE PORTAL / PINK PORTAL-->
-        <div id="ggop" class="step slide" data-x="1500" data-y="-3000">
+        <!-- GREEN PORTAL / GREEN PORTAL / ORANGE PORTAL / PINK PORTAL --> 
+        <div id="ggop" class="step slide" data-x="3000" data-y="-4500">
             <div class="slide-text">
                 <p>You step through the pink portal and find yourself</p>
                 <p>looking into the eyes of a beautiful woman. She asks,</p>
@@ -284,7 +285,7 @@
             </div>
         </div>
 
-        <!-- GREEN PORTAL / GREEN PORTAL / ORANGE PORTAL / BROWN PORTAL-->
+        <!-- GREEN PORTAL / GREEN PORTAL / ORANGE PORTAL / BROWN PORTAL -->
         <div id="ggob" class="step slide" data-x="1500" data-y="-6000">
             <div class="slide-text">
                 <p>You step through the brown portal and find yourself</p>
@@ -507,7 +508,7 @@
         </div>
 
         <!-- BLUE PORTAL / BLUE PORTAL -->
-        <div id="bb" class="step slide" data-x="4500">
+        <div id="bb" class="step slide" data-x="6000">
             <div class="slide-text">
                 <p>You step through the blue portal and end up in another</p>
                 <p>room. This room also has red, green, and blue portals.</p>
@@ -527,7 +528,7 @@
         </div>
 
         <!-- BLUE PORTAL / BLUE PORTAL / RED PORTAL -->
-        <div id="bbr" class="step slide" data-x="6000">
+        <div id="bbr" class="step slide" data-x="7500">
             <div class="slide-text">
                 <p>You step through the red portal and find yourself in the</p>
                 <p>middle of a horde of zombies. A voice speaks out and</p>
@@ -540,7 +541,7 @@
         </div>
 
         <!-- BLUE PORTAL / BLUE PORTAL / GREEN PORTAL -->
-        <div id="bbg" class="step slide" data-x="4500" data-y="1500">
+        <div id="bbg" class="step slide" data-x="6000" data-y="1500">
             <div class="slide-text">
                 <p>You step through the green portal and find yourself in the</p>
                 <p>middle of a horde of zombies. A voice speaks out and</p>
@@ -553,7 +554,7 @@
         </div>
 
         <!-- BLUE PORTAL / BLUE PORTAL / BLUE PORTAL -->
-        <div id="bbb" class="step slide" data-x="4500" data-y="-1500">
+        <div id="bbb" class="step slide" data-x="6000" data-y="-1500">
             <div class="slide-text">
                 <p>You step through the blue portal and find yourself locked</p>
                 <p>into a guillotine. A voice speaks out and says, "You should</p>
